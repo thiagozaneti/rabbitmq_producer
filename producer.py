@@ -5,7 +5,7 @@ import time
 credentials = pika.PlainCredentials('admin', 'senhasegura')
 connection = pika.BlockingConnection(
     pika.ConnectionParameters(
-        host='SEU_IP_VPS',  # IP público da VPS
+        host='62.72.9.213',  # IP público da VPS
         port=5672,
         credentials=credentials
     )
